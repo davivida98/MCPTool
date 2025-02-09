@@ -61,9 +61,9 @@ class Setup:
 
     @staticmethod
     def start_setup():
-        """ 
-        Verify and install the dependencies needed to use MCPTool. 
-        Also, prepare the configuration file for the user. 
+        """
+        Verify and install the dependencies needed to use MCPTool.
+        Also, prepare the configuration file for the user.
         """
 
         if Setup.check_termux():
