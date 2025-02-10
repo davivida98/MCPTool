@@ -1,12 +1,11 @@
 import subprocess
-import tiheme
+import time
 import os
 import sys
 
 from src.startup import Startup
 from src.decoration.print_banner import print_banner
 from src.utilities.check_utilities import CheckUtilities
-
 
 if __name__ == '__main__':
     try:
